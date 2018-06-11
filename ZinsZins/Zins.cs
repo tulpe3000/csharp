@@ -9,11 +9,6 @@ namespace ZinsZins
     public class Zins
     {
 
-        public Zins()
-        {
-            
-        }
-
         public double BerechneZins(int kapital, int laufzeit, int zinsen)
         {
             double summe = kapital;
