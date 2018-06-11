@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ZinsZins
 {
     public class Zins
+        // Kommentar
     {
 
         public double BerechneZins(int kapital, int laufzeit, int zinsen)
