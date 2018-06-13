@@ -11,10 +11,21 @@ namespace Start
     {
         static void Main(string[] args)
         {
-            int[] list = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            int k = 3;
+            int n = 300;
+            int k = 300;
+            int[] list = makeList(n);
             Console.WriteLine(Joseph.eneMeneMu(list,k));
             Console.ReadKey();
+        }
+
+        private static int[] makeList(int n)
+        {
+            int[] list = new int[n];
+           for (int i=0; i < n; i++)
+            {
+                list[i] = i + 1;
+            }
+            return list;
         }
     }
 }
